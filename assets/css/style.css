@@ -17,13 +17,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Chillax-Semibold", sans-serif;
+  font-family: "Chillax-Semibold","themify" sans-serif;
   color: #000;
   font-weight: 300;
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 50px;
   line-height: 61px;
 }
 
