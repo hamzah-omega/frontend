@@ -5,6 +5,8 @@
  * GITHUB: https://github.com/themefisher/
  */
 
+
+
 (function ($) {
   'use strict';
 
@@ -65,6 +67,35 @@
         }
       ]
     });
+
+
+   
+    const typewriter = document.getElementById('typewriter');
+    const text = typewriter.innerHTML;
+    typewriter.innerHTML = '';
+  
+    let i = 0;
+    const speed = 50; // kecepatan penulisan karakter
+  
+    function typeWriter() {
+      if (i < text.length) {
+        typewriter.innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+  
+    setTimeout(typeWriter, 1000); // jeda 1 detik sebelum efek typewriter dimulai
+  
+    // Tambahkan event listener untuk memulai ulang efek typewriter saat pengguna kembali ke bagian atas halaman
+    window.addEventListener('scroll', () => {
+      if (window.scrollY === 0) {
+        i = 0;
+        typewriter.innerHTML = '';
+        setTimeout(typeWriter, 300);
+      }
+    });
+
 
 
     // -----------------------------
