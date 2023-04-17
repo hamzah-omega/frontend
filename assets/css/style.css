@@ -87,7 +87,7 @@ ul.post-tag li {
 ul.post-tag li img {
   width: 25px;
   height: 25px;
-  border-radius: 100%;
+  border-radius:10px;
   margin-right: 5px;
 }
 ul.post-tag li a {
@@ -218,7 +218,7 @@ a:hover {
   width: 125px;
   font-size: 40px;
   background: #F1A500;
-  border-radius: 100%;
+  border-radius:10px;
   color: #fff;
   line-height: 125px;
   text-align: center;
@@ -545,7 +545,7 @@ button:focus,
   display: block;
   width: 38px;
   height: 38px;
-  border-radius: 100%;
+  border-radius:10px;
   background: #3f3f43;
   color: #fff;
   text-align: center;
@@ -896,7 +896,7 @@ button:focus,
 .feature .testimonial ul.meta li img {
   height: 40px;
   width: 40px;
-  border-radius: 100%;
+  border-radius:10px;
 }
 
 @media (max-width: 480px) {
@@ -965,7 +965,7 @@ button:focus,
   color: #fff;
   text-align: center;
   line-height: 125px;
-  border-radius: 100%;
+  border-radius:10px;
 }
 .video-promo .content-block a:focus {
   outline: 0;
@@ -995,7 +995,7 @@ button:focus,
 .testimonial .testimonial-slider .item .block .image img {
   height: 40px;
   width: 40px;
-  border-radius: 100%;
+  border-radius:10px;
 }
 .testimonial .testimonial-slider .item .block p {
   font-family: "Lora", serif;
@@ -1386,7 +1386,7 @@ hr {
 .blog-single .about-author .media .image img {
   width: 150px;
   height: 150px;
-  border-radius: 100%;
+  border-radius:10px;
 }
 .blog-single .about-author .media .media-body {
   margin-left: 40px;
@@ -1599,7 +1599,7 @@ hr {
   height: 60px;
   width: 60px;
   border: 1px solid #000;
-  border-radius: 100%;
+  border-radius:10px;
 }
 
 .gallery .image {
@@ -1879,7 +1879,7 @@ hr {
   height: 100px;
   width: 100px;
   background: #fafafa;
-  border-radius: 100%;
+  border-radius:10px;
   font-size: 45px;
   text-align: center;
   line-height: 100px;
