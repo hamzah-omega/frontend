@@ -496,7 +496,7 @@
         <div class="row align-items-center">
           <div class="col-md-6 order-2 order-md-1 text-center text-md-left">
             <h1 class="text-white font-weight-bold mb-4" id="typewriter" style="font-family: 'Chillax-Semibold';">
-              Giving Insight Driving Growth</h1>
+              Giving Insight &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Driving Growth</h1>
             <p class="text-white mb-5">Elevate business and experience growth by utilizing tailor-made digital
               marketing strategies</p>
             <ul class="list-inline">
@@ -513,7 +513,7 @@
                 </a>
               </li>
             </ul>
-            <p class="text-white mb-5"><em>Get a meeting with our consultant or get our free credential</em></p>
+            <p class="text-white mb-5" style="font-size: 14px;"><em><small>Get a meeting with our consultant or get our free credential</small></em></p>
           </div>
           <div class="col-md-6 text-center order-1 order-md-2">
             <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel"
@@ -536,7 +536,7 @@
         
         
         const typewriter = document.getElementById('typewriter');
-        const text = typewriter.innerHTML;
+        const text = typewriter.innerText;
         typewriter.innerHTML = '';
 
         let i = 0;
@@ -567,36 +567,50 @@
     <!--====  End of Hero Section  ====-->
 
 
-
     <section class="section pt-0 position-relative pull-top">
       <div class="container">
         <div class="rounded shadow p-5 bg-white" style="border-radius: 100%;">
           <div class="row">
             <div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
               <i class="ti-shopping-cart-full text-secondary" style="font-size: 40px;"></i>
-              <h3 class="mt-4 text-capitalize h5 " style="font-family: 'Chillax-Semibold';">Setup Marketing Channel
-              </h3>
-              <p class="regular text-muted">Design new marketing channels and strategies to initiate - scale up business
-              </p>
+              <h3 class="mt-4 text-capitalize h5" style="font-family: 'Chillax-Semibold';">Setup Marketing Channel</h3>
+              <p class="regular text-muted">Design new marketing channels and strategies to initiate - scale up business</p>
             </div>
             <div class="col-lg-4 col-md-12 mt-5 mt-lg-0 text-center">
               <i class="ti-stats-up text-secondary" style="font-size: 40px;"></i>
-              <h3 class="mt-4 text-capitalize h5 " style="font-family: 'Chillax-Semibold';">Revenue Growth
-              </h3>
+              <h3 class="mt-4 text-capitalize h5" style="font-family: 'Chillax-Semibold';">Revenue Growth</h3>
               <p class="regular text-muted">Increase revenue and growth with strategic design on existing platforms</p>
-              </p>
             </div>
             <div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
-              <i class="ti-bar-chart text-secondary " style="font-size: 40px;"></i>
-              <h3 class="mt-4 text-capitalize h5 " style="font-family: 'Chillax-Semibold';">Lean Startup Product</h3>
+              <i class="ti-bar-chart text-secondary" style="font-size: 40px;"></i>
+              <h3 class="mt-4 text-capitalize h5" style="font-family: 'Chillax-Semibold';">Lean Startup Product</h3>
               <p class="regular text-muted">Product development with Lean Start Up method for business growth</p>
             </div>
-
           </div>
         </div>
       </div>
-
     </section>
+    
+    <script>
+      const icons = document.querySelectorAll('.section i');
+    
+      icons.forEach(icon => {
+        icon.addEventListener('mouseover', () => {
+          icon.style.color = '#F1A500'; // warna saat hover
+          icon.style.fontSize = '50px'; // ukuran saat hover
+        });
+    
+        icon.addEventListener('mouseout', () => {
+          icon.style.color = '#7B241C'; // warna saat tidak hover
+          icon.style.fontSize = '40px'; // ukuran saat tidak hover
+        });
+      });
+    </script>
+    
+    
+
+    
+      
 
     <!--==================================
 =            Feature Grid            =
