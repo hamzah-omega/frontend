@@ -557,10 +557,10 @@
   </div>
   <div class="container" style="height: 50px;">
     <div class="row align-items-md-start">
-      <div class="col-md-6 order-2 order-md-1 text-center text-md-left pull-top">
-        <h1 class="text-white font-weight-bold mb-4 " style="font-family: 'Chillax-Semibold';">
-          Get Connect<br> Get More</h1>
-        <p class="text-white mb-5">Ready to connect? We welcome your inquiries and feedback!</p>
+      <div class="col-md-8 order-2 order-md-1  text-center text-md-left pull-top">
+        <h1 class="text-white font-weight-bold mt-5 mb-4 " style="font-family: 'Chillax-Semibold';">
+          Get Connect to Get More</h1>
+        <h6 class="text-white mb-5">Ready to connect? We welcome your inquiries and feedback!</h6>
       </div>
     </div>
   </div>
@@ -577,19 +577,24 @@
         <div class="rounded shadow bg-white col-lg-4 mx-auto">
             <img src="..." class="card-img-top" alt="...">
           <div class="card-body align-center">
-            <h6 class="">Talk to Sales</h6>
-            <p class="card-text text-center">Interested in Mierakigai software? 
-            Just pick up the phone to chat with a member of our sales team.
+            <h6 class="">Talk to Consultant</h6>
+            <p class="card-text text-center">A free consultation meeting with our expertise for your unique business. Let’s chat or call Mierakigai consultant team
             </p>
+            <a href="#">+62 813-2259-9906</a>
           </div>
         </div>
         <div class="rounded shadow bg-white col-lg-4 mx-auto">
           <img src="..." class="card-img-top" alt="...">
         <div class="card-body align-center">
-          <h6 class="">Talk to Sales</h6>
-          <p class="card-text text-center">Interested in Mierakigai software? 
-          Just pick up the phone to chat with a member of our sales team.
+          <h6 class="">Support Team</h6>
+          <p class="card-text text-center">Sometimes you will ask an advice from your friend ... or you can count on Mierakigai support team
           </p>
+          <li class="list-inline-item">
+            <a href="" class="btn btn-warning btn-sm">
+              <i class="ti-comments"></i>
+              Start Meeting
+            </a>
+          </li>
         </div>
       </div>
     </div>
@@ -605,22 +610,18 @@
         <div class="row">
           <div class="col-lg-5 align-self-center">
             <div class="block">
-              <div class="address-block text-center mb-5">
-                <div class="icon">
-                  <i class="ti-mobile"></i>
-                </div>
+              <div class="address-block text-left mb-5">
                 <div class="details">
-                  <h3>+62 813-2259-9906</h3>
-                  <h3>(88) 016 725 0455 (UK)</h3>
+                  <h3>Phone / Mail</h3>
+                  <p>+62 813-2259-9906</p>
+                  <p>admin@mierakigai.com</p>
                 </div>
               </div>
-              <div class="address-block text-center">
-                <div class="icon">
-                  <i class="ti-map-alt"></i>
-                </div>
+              <div class="address-block text-left">
                 <div class="details">
-                  <h3>Jl. Jendral Sudirman no. 257, Bandung, West Java, Indonesia</h3>
-                  <h3>Jl. Sarijadi, Kec. Sukasari, Kota Bandung, Jawa Barat</h3>
+                  <h3>Headquarter</h3>
+                  <p>Jl. Jendral Sudirman no. 257, Bandung, West Java, Indonesia</p>
+                  <p>Jl. Sarijadi, Kec. Sukasari, Kota Bandung, Jawa Barat</p>
                 </div>
               </div>
             </div>
@@ -628,8 +629,12 @@
           <div class="col-lg-7 mt-5 mt-lg-0">
             <div class="google-map">
               <!-- Google Map -->
-              <div id="map_canvas" style="border-radius: 10px;" data-latitude="51.507351" data-longitude="-0.127758">
+              <div class="mapouter">
+                <div id="gmap_canvas"  style="border-radius: 10px;" >
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1980.550367030641!2d107.57571602010923!3d-6.878533804530904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNTInNDIuNSJTIDEwN8KwMzQnMzcuMCJF!5e0!3m2!1sen!2sid!4v1683138936783!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
               </div>
+              
             </div>
           </div>
         </div>
@@ -639,37 +644,54 @@
     <!--====  End of Address and Map  ====-->
     <section class="contact-form section">
       <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="mb-5 text-center">Send Email or Get Credentials</h2>
-          </div>
-          <div class="col-12">
-            <form action="">
-              <div class="row">
-                <!-- Name -->
-                <div class="col-md-6 mb-2">
-                  <input class="form-control main" type="text" placeholder="Name" required>
+        <div class="rounded shadow p-5 bg-white" style="border-radius: 100%;">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="mb-5 text-center">Send Any Queries or Say Hi</h2>
+            </div>
+            <div class="col-12">
+              <form action="">
+                <div class="row">
+                  <!-- Name -->
+                  <div class="col-md-6 mb-2">
+                    <input class="form-control main" type="text" placeholder="Name" required>
+                  </div>
+                  <!-- Email -->
+                  <div class="col-md-6 mb-2">
+                    <input class="form-control main" type="email" placeholder="Your Email Address" required>
+                  </div>
+                  <!-- subject -->
+                  <div class="col-md-12 mb-2">
+                    <input class="form-control main" type="text" placeholder="Subject" required>
+                  </div>
+                  <!-- Message -->
+                  <div class="col-md-12 mb-2">
+                    <textarea class="form-control main" name="message" rows="10" placeholder="Your Message"></textarea>
+                  </div>
+                  <!-- Submit Button -->
+                  <div class="col-12 text-right">
+                    <ul class="hsg-nav__group hsg-nav__group--cta" role="none">
+                      <li
+                        class="hsg-nav__group-item hsg-nav__group-item--cta"
+                        role="none">
+                        <div class="header-nav__ctas">
+                          <a class="cta--features cta--regular cta--primary ga_nav_link homepage-nav"
+                            href="#" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get a demo">
+                            Send Email
+                          </a>
+                          <a class="cta--features cta--regular cta--secondary ga_nav_link homepage-nav2"  data-ga_nav_type="header_nav"
+                            data-ga_nav_tree_text="Get started free" href="#">
+                            Get Credentials</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <!-- Email -->
-                <div class="col-md-6 mb-2">
-                  <input class="form-control main" type="email" placeholder="Your Email Address" required>
-                </div>
-                <!-- subject -->
-                <div class="col-md-12 mb-2">
-                  <input class="form-control main" type="text" placeholder="Subject" required>
-                </div>
-                <!-- Message -->
-                <div class="col-md-12 mb-2">
-                  <textarea class="form-control main" name="message" rows="10" placeholder="Your Message"></textarea>
-                </div>
-                <!-- Submit Button -->
-                <div class="col-12 text-right">
-                  <button class="btn btn-main-md">Submit</button>
-                </div>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
+        
       </div>
     </section>
 
