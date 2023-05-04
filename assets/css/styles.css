@@ -1217,18 +1217,18 @@ a.no-style {
 }
 .cta--secondary,
 .cta--secondary-dark {
-  border: 1px solid #ff5c35;
-  color: #ff5c35;
+  border: 1px solid #F1A500;
+  color: #F1A500;
 }
 .cta--secondary:hover,
 .cta--secondary-dark:hover {
   background-color: #ffebe6;
-  color: #ff5c35;
+  color: #F1A500;
 }
 .cta--secondary:active,
 .cta--secondary-dark:active {
   background-color: #ffcec2;
-  color: #ff5c35;
+  color: #F1A500;
 }
 .high-contrast .cta--secondary,
 .high-contrast .cta--secondary-dark {
@@ -1634,23 +1634,23 @@ a.no-style {
 .high-contrast [data-background-overlay] .cta--primary-dark:active,
 [data-background-overlay] .high-contrast .cta--primary-dark:active,
 .high-contrast .cta--primary-light:active {
-  background-color: #eaf0f6;
+  background-color: #eaf0f6; 
   color: #2e475d;
   border: 1px solid #eaf0f6;
 }
 .cta,
 .cta--primary,
 .cta--primary-dark {
-  background-color: #ff5c35;
+  background-color: #F1A500;
   color: #fff;
-  border: 1px solid #ff5c35;
+  border: 1px solid #F1A500;
 }
 .cta:hover,
 .cta--primary:hover,
 .cta--primary-dark:hover {
-  background-color: #ffcec2;
+  background-color: #8EB6AE;
   color: #fff;
-  border: 1px solid #ffcec2;
+  border: 1px solid #8EB6AE;
 }
 .cta:active,
 .cta--primary:active,
