@@ -1213,7 +1213,7 @@ a.no-style {
 .cta--secondary,
 .cta--secondary-dark,
 .cta--secondary-light {
-  background-color: #fff;
+  background-color: transparent;
 }
 .cta--secondary,
 .cta--secondary-dark {

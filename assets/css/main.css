@@ -146,11 +146,11 @@ iframe {
 
 .wrap-contact3 {
     width: 500px;
-    background: #80c64a;
-    background: -webkit-linear-gradient(45deg,#56ab2f,#a8e063);
-    background: -o-linear-gradient(45deg,#56ab2f,#a8e063);
-    background: -moz-linear-gradient(45deg,#56ab2f,#a8e063);
-    background: linear-gradient(45deg,#56ab2f,#a8e063);
+    background: #8EB6AE; 
+    background: -webkit-linear-gradient(45deg,#8EB6AE,#8EB6AE);
+    background: -o-linear-gradient(45deg,#8EB6AE,#8EB6AE);
+    background: -moz-linear-gradient(45deg,#8EB6AE,#8EB6AE);
+    background: linear-gradient(45deg,#8EB6AE,#8EB6AE);
     border-radius: 10px;
     overflow: hidden;
     padding: 72px 55px 65px
