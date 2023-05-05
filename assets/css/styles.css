@@ -1655,9 +1655,9 @@ a.no-style {
 .cta:active,
 .cta--primary:active,
 .cta--primary-dark:active {
-  background-color: #d44325;
+  background-color: #F1A500;
   color: #fff;
-  border: 1px solid #d44325;
+  border: 1px solid #F1A500;
 }
 .high-contrast .cta,
 .high-contrast .cta--primary,
