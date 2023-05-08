@@ -2876,7 +2876,7 @@ body.active-nav .hsg-nav-menu {
   color: #fff;
 }
 body:not(.high-contrast) .hsg-nav__group-item a.cta--secondary {
-  color: #ff5c35;
+  color: #f1a500;
 }
 @media (min-width: 900px) {
   .hsg-nav__group-item--about .hsg-nav__dropdown-list {
