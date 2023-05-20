@@ -1,0 +1,28 @@
+.csol-full-width-cta-header {
+  font-size: 1.375rem;
+  font-weight: 500;
+  line-height: 1.45;
+}
+.csol-full-width-cta {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.csol-full-width-cta-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.csol-full-width-cta-header {
+  margin: 0 0 0.5rem;
+}
+.csol-full-width-cta-description {
+  margin: 0 0 1.5rem;
+}
+.csol-full-width-cta-cta .cl-button:nth-child(2) {
+  margin: 1rem 0 0 0.75rem;
+}
+@media (min-width: 600px) {
+  .csol-full-width-cta-cta .cl-button:nth-child(2) {
+    margin-top: 0;
+  }
+}

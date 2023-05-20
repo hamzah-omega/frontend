@@ -1671,16 +1671,16 @@ a.no-style {
 .cta,
 .cta--primary,
 .cta--primary-dark {
-  background-color: #f1a500;
+  background-color: #ff5c35;
   color: #fff;
-  border: 1px solid #f1a500;
+  border: 1px solid #ff5c35;
 }
 .cta:hover,
 .cta--primary:hover,
 .cta--primary-dark:hover {
-  background-color: #8eb6ae;
+  background-color: #ffcec2;
   color: #fff;
-  border: 1px solid #8eb6ae;
+  border: 1px solid #ffcec2;
 }
 .cta:active,
 .cta--primary:active,
